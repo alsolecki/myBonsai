@@ -1,0 +1,1 @@
+$('#flash').hide().fadeIn(2500);
