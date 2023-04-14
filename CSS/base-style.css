@@ -6,8 +6,8 @@
 body {
 	font-family: 'Nunito', sans-serif;
 	color: #384047;
-	padding: 40px 0 60px;
 }
+
 hr {
   border: 0;
   height: 0;
@@ -15,18 +15,49 @@ hr {
   margin: 50px 0;
 }
 h1 {
-  font-size: 2.5em;
-  margin: 0 0 30px 0;
+  color: black;
+  font-size: 2.75em;
+  margin: 0 0 15px 0;
+  text-align: center;
+  text-shadow: 2px 2px 1px palegoldenrod;
+
+}
+main {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: aliceblue;
+}
+#headContainer {
+  background-image: radial-gradient(circle at bottom, green, teal);
+  padding-top: 30px;
+  padding-bottom: 10px;
+  min-height: 160px;
+}
+
+div p {
+  font-size: 1.25em;
+  color: white;
+  text-shadow: 0 0 2px peachpuff;
   text-align: center;
 }
 
-#headContainer {
-  max-width: 750px;
-  margin: auto;
-
+main h2 {
+  margin: 6px;
 }
 
-h3 {
+main h4 {
+  margin: 6px;
+}
+
+main p {
+  margin: 4px;
+}
+
+img {
+  max-width: 200px;
+}
+
+/* h3 {
   font-size: 1.25em;
   text-align: center;
   background-color: papayawhip;
@@ -35,7 +66,7 @@ h3 {
   padding: 20px 0px 20px;
   max-width: 500px;
   margin: 15px auto 25px;
-}
+} */
 
 /* -------   Table Styling  ----------- */
 table {
