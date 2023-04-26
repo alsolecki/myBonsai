@@ -18,3 +18,6 @@ for (let i = 0; i < trees.length; i++){
 }
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
 // ABOVE: inserts tree objects from mytrees.js into the page
+
+randoNumber = Math.random(); 
+console.log(randoNumber);
